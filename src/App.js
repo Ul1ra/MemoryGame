@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Card from './components/Card';
 import shuffle from './utilities/shuffle';
+// import Header from "./components/Header";
 
 
 
@@ -76,7 +77,7 @@ function App() {
 
   return (
     <>
-
+      
       <div className="grid">
         {cards.map((card) => {
           const { image, id, matched } = card;
